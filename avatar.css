@@ -1,0 +1,124 @@
+body{
+    position: relative;
+}
+.container{
+    background-color:skyblue ;
+    padding: 3px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+header{
+    background-color: rgb(155, 173, 238);
+    padding:1px;
+    top: 0;
+    position: sticky;
+}
+
+.sidebar{
+    width: 250px;
+    border: 1px solid black;
+    background-color: thistle;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+}
+
+
+.round1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.round2{
+
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+
+}
+
+.round3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.square1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.square2{
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    
+}
+
+.square3{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    
+}
+
+.text-round1{
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    display: inline;
+}
+
+.text-round2{
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    display: inline;
+}
+
+.text-round3{
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+    display: inline;
+}
+
+.text-square1{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    display: inline;
+}
+
+.text-square2{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    display: inline;
+}
+
+.text-square3{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    display: inline;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: wheat;
+    font-size: 20px;
+    margin-top: 9px;
+    border-radius: 5px;
+}
