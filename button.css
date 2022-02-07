@@ -1,0 +1,138 @@
+body{
+    position: relative;
+    margin-left: 4px;
+}
+.container{
+
+    padding: 3px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+
+}
+
+header{
+    background-color: rgb(155, 173, 238);
+    padding:1px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+    top: 0;
+}
+
+
+.side-nav{
+    text-decoration: none;
+}
+
+.side-nav:hover{
+    background-color: turquoise;
+    padding: .3rem 3rem .3rem 3rem;
+    border-radius: 15px;
+}
+
+
+
+
+.sidebar{
+    width: 27rem;
+    height: fit-content;
+    border-right-style: solid;
+    position: static;
+    text-align: center;
+}
+
+.icon{
+    font-size: 3rem;
+    cursor: pointer;
+} 
+
+.btns{
+    background-color: aquamarine;
+    margin: 1rem;
+    padding: 3px;
+
+
+}
+
+button {
+    border-radius: .7rem;
+    padding: .7rem;
+    background-color: skyblue;
+}
+
+.primary{
+    background-color: slateblue;
+    width: 12rem;
+    padding: 1rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.secondary{
+    background-color: pink;
+    width: 12rem;
+    padding: 1rem;
+    margin: 4px;
+    cursor: pointer;
+
+}
+
+.submit{
+    background-color: lightgreen;
+    width: 12rem;
+    padding: 1rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: red;
+    width: 7rem;
+    padding: 3rem 1rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.cart{
+    background-color: blue;
+    width: 12rem;
+    padding: 1rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.wishlist{
+    background-color: white;
+    width: 12rem;
+    padding: 1rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.disabled-btn{
+    color: gray;
+    width: 12remx;
+    padding: 1rem;
+    margin: 4px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 820px) {
+
+    html{
+        font-size: 10px;
+        width: 98%;
+    }
+
+    header{
+        text-align: left;
+    }
+}
