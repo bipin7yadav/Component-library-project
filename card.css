@@ -1,0 +1,183 @@
+body{
+    position: relative;
+    margin-left: 4px;
+}
+.container{
+    padding: 3px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+
+}
+
+header{
+    background-color: rgb(155, 173, 238);
+    padding:1px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius: 1rem;
+    top: 0;
+}
+
+
+.side-nav{
+    text-decoration: none;
+}
+
+.side-nav:hover{
+    background-color: turquoise;
+    padding: .3rem 3rem .3rem 3rem;
+    border-radius: 1rem;
+}
+
+
+
+
+.sidebar{
+    width: 13rem;
+    height: fit-content;
+    border-right-style: solid;
+    position: static;
+    text-align: center;
+}
+
+.nature{
+    background-color: chartreuse;
+    width: fit-content;
+    position: relative;
+    width: 25rem;
+    padding: 3px;
+    border: 1px solid green;
+    text-align: center;
+
+}
+
+
+
+#nature{
+    position: relative;
+    width: 23rem;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.overlay{
+    position: absolute;
+    color: black;
+    font-size: 3rem;
+    top: 50%;
+    left: 15%;
+
+}
+
+.nature1{
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 47rem;
+    display: flex;
+    background-color: chartreuse;
+    padding: 3px;
+    border: 1px solid green;
+    text-align: center;
+
+}
+
+#nat{
+    width: 40rem;
+    height: 20rem;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    border-radius: 1rem;
+    background-color: skyblue;
+    cursor: pointer;
+    padding: 1rem;
+
+}
+
+.icon{
+    font-size: 3rem;
+    cursor: pointer;
+} 
+
+.text-card{
+
+    width: 20rem;
+    background-color: skyblue;
+    padding: 3px;
+    border: 1px solid green;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.text-card2{
+    position: relative;
+    width: 20rem;
+    background-color: skyblue;
+    padding: 3px;
+    border: 1px solid green;
+    text-align: center;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+
+.dismiss{
+    background-color: red;
+    border-radius: 50%;
+    height: 1.2rem;
+}
+
+.dismiss:hover{
+    color: silver;
+    background-color: black;
+}
+
+.badge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 4rem;
+    padding-top: 1rem;
+    background-color: rgba(60, 203, 93, 0.694);
+    border-radius: 50%;
+    height: 3rem;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carbon{
+    width: 50rem;
+    height: 30rem;
+    border: 0;
+    margin-top: 3rem;
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    html{
+        font-size: 10px;
+        width: 98%;
+    }
+
+    header{
+        text-align: left;
+    }
+}
+
