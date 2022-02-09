@@ -71,7 +71,7 @@ button{
     width: 60rem;
     display: flex;
     justify-content: space-between;
-    background-color: turquoise;
+    background-color: var(--primary-color);
     padding: 5px;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -87,7 +87,7 @@ button{
 }
 
 .spaced{
-    background-color: skyblue;
+    background-color: var(--tertiary-color);
     border: 1px solid blue;
     margin: 2rem;
     padding: 1rem;
