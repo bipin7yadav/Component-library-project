@@ -1,0 +1,96 @@
+:root{
+    --primary-color:turquoise;
+    --secondary-color:rgb(155, 173, 238);
+    --tertiary-color: skyblue;
+    --red-color:red;
+
+}
+
+body{
+    position: relative;
+    margin-left: 4px;
+    width: 100%;
+}
+
+.body{
+    width: 100%;
+}
+.container{
+    padding: 3px;
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    background-color:var(--secondary-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding:1px;
+    top: 0;
+}
+
+.side-nav{
+    text-decoration: none;
+}
+
+.side-nav:hover{
+    background-color: var(--primary-color);
+    padding: 5px 3rem 5px 3rem;
+    border-radius: 1rem;
+}
+
+
+.sidebar{
+    width: 16rem;
+    height: fi;
+    border-right-style: solid;
+    position: static;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius:1rem ;
+    padding: 1rem;
+    background-color:var(--tertiary-color);
+}
+
+.icon{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.slider{
+    width: 100%;
+    background-color: var(--red-color);
+    border-radius: 1rem ;
+    padding: 5px 0px 5px 3px;
+}
+
+.carbon{
+    border: 0;
+    width: 50rem;
+    margin: 3rem;
+    height: 30rem;
+}
+
+@media only screen and (max-width: 820px) {
+
+    html{
+        font-size: 10px;
+        width: 98%;
+    }
+
+    header{
+        text-align: left;
+    }
+}
