@@ -79,6 +79,7 @@ button{
 
 .centered{
     text-align: center;
+    align-self:center;
     background-color: var(--orange-color);
 }
 
