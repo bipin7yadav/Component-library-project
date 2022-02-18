@@ -57,90 +57,59 @@ button{
     background-color: skyblue;
 }
 
-
 .icon{
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
-} 
+}
 
-button{font-size: large;
-    border-radius: 1rem;
-    padding: 1rem;
+.alert{
+    display: inline-block;
+    margin: 1rem;
+    width: 100%;
+    padding: .7rem;
+    text-align: center;
+}
+
+
+.alert1{
     background-color: skyblue;
 }
 
-
-
-
-.round1{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+.alert2{
+    background-color: rgb(186, 191, 93);
 }
 
-.round2{
-
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-
+.alert3{
+    background-color: lightcyan;
 }
 
-.round3{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-}
-
-.square1{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 1rem;
-    
-}
-
-.square2{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 1rem;
-    
-}
-
-.square3{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 1rem;
-    
-}
-
-.text-round{
+.alert4{
     background-color: red;
-    margin-bottom: 4rem;
-    border-radius: 50%;
-    padding: 1rem;
-    display: inline;
+}
+
+.alert5{
+    background-color: lightgoldenrodyellow;
+}
+
+.alert6{
+    background-color: lightskyblue;
+}
+
+.alert7{
+    color: grey;
+}
+
+.alert8{
+    background-color: grey;
 }
 
 
-.text-square{
-    background-color:red;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    display: inline;
-}
-
-
-.carbon-png{
-
+.carbon{
     border: 0;
-    width: 50rem;
+    width: 100%;
     margin: 3rem;
     height: 30rem;
-
 }
-
-
 
 @media only screen and (max-width: 820px) {
 
