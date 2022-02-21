@@ -1,11 +1,11 @@
 # Component-library-project
  css-sup  is a component library which you will use in building your own web app very easily and moreover it lets you copy entire layout from this component to build your own desired website.
  
- ##Teachnologies Used :
+ ## Teachnologies Used :
  - HTML 
  - CSS
  
- ##Available Components:
+ ## Available Components:
  - [Avatar](https://component-l2ibrary.netlify.app/avatar.html)
  - [Alert](https://component-l2ibrary.netlify.app/alert.html)
  - [Badge](https://component-l2ibrary.netlify.app/badge.html)
@@ -18,3 +18,6 @@
  - [Rating](https://component-l2ibrary.netlify.app/navigation.html)
  - [Slider](https://component-l2ibrary.netlify.app/slider.html)
  - [Text utilities](https://component-l2ibrary.netlify.app/text-utility.html)
+
+
+## Author: [Bipin Yadav](https://github.com/bipin7yadav)
