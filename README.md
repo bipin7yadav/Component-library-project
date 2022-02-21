@@ -20,4 +20,10 @@
  - [Text utilities](https://component-l2ibrary.netlify.app/text-utility.html)
 
 
+
+# Home Page Preview :
+![screenshot](home-page.png)
+
+
 ## Author: [Bipin Yadav](https://github.com/bipin7yadav)
+
