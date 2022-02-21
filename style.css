@@ -20,7 +20,7 @@
 nav{
     padding: 10px;
     display: flex;
-    background-color: rgb(60, 171, 226);
+    background-color: rgb(155, 173, 238);
     justify-content: space-between;
     border-top-right-radius: 10px;
 
@@ -51,8 +51,7 @@ a{
 }
 
 footer{
-
-    background-color: rgb(60, 171, 226);
+    background-color: rgb(155, 173, 238);
     height: 100px;
     text-align: center;
     border-bottom-left-radius: 10px;
