@@ -4,6 +4,10 @@
  ## Teachnologies Used :
  - HTML 
  - CSS
+
+
+ # Home Page Preview :
+ ![screenshot](home-page.png)
  
  ## Available Components:
  - [Avatar](https://component-l2ibrary.netlify.app/avatar.html)
@@ -21,8 +25,6 @@
 
 
 
-# Home Page Preview :
-![screenshot](home-page.png)
 
 
 ## Author: [Bipin Yadav](https://github.com/bipin7yadav)
