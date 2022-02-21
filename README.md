@@ -2,8 +2,8 @@
  css-sup  is a component library which will you in building your web app very easily and moreover it lets you copy entire layout from this component to build your own desired website.
  
  ##Teachnologies Used :
- -HTML
- -CSS
+ - HTML 
+ - CSS
  
  ##Available Components:
  - [Avatar](https://component-l2ibrary.netlify.app/avatar.html)
