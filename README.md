@@ -22,6 +22,9 @@
  - [Rating](https://component-l2ibrary.netlify.app/navigation.html)
  - [Slider](https://component-l2ibrary.netlify.app/slider.html)
  - [Text utilities](https://component-l2ibrary.netlify.app/text-utility.html)
+ - [Modal](https://deploy-preview-17--component-l2ibrary.netlify.app/modal.html)
+ - [Toast](https://deploy-preview-17--component-l2ibrary.netlify.app/toast.html)
+ - [Grid](https://deploy-preview-17--component-l2ibrary.netlify.app/grid.html)
 
 
 
