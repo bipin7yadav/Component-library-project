@@ -52,12 +52,6 @@ header{
 }
 
 
-.side-nav:hover{
-    background-color: turquoise;
-    padding: 5px 3rem 5px 3rem;
-    border-radius: 1rem;
-}
-
 
 .sidebar{
     width: 15%;
