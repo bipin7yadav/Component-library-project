@@ -1,6 +1,7 @@
 body{
     position: relative;
     margin-left: 4px;
+    margin-top: 0;
 }
 .container{
     padding: 3px;
@@ -9,16 +10,40 @@ body{
     position: relative;
 
 }
+.body{
+    width: 85%;
+}
 
 header{
-    background-color: rgb(155, 173, 238);
-    padding:1px;
     display: flex;
     justify-content: space-between;
-    border-bottom-left-radius:1rem ;
+    background-color: rgb(155, 173, 238);
+    border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    position: sticky;
+    z-index: 2;
+    margin-top: 0;
     top: 0;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}
+
+.icon{
+    font-size: 3rem;
+    cursor: pointer;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+} 
+.fa{
+    text-decoration: none;
+}
+
 
 
 .side-nav{
@@ -35,7 +60,7 @@ header{
 
 
 .sidebar{
-    width: 13rem;
+    width: 15.2%;
     height: fit-content;
     border-right-style: solid;
     position: static;
@@ -73,26 +98,44 @@ header{
 }
 
 .nature1{
-    box-shadow: 5px 5px 5px 5px grey;
+    box-shadow: 8px 10px  rgba(213, 221, 218, 0.675);
+    height: 20rem;
     width: 47rem;
     display: flex;
     background-color: chartreuse;
     padding: 3px;
     border: 1px solid green;
     text-align: center;
+    box-sizing: border-box;
+    position: relative;
 
 }
 
+.remove{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.remove:hover{
+    color: red;
+}
 #nat{
-    width: 40rem;
-    height: 20rem;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
+.imghold{
+    width: 250%;
+    box-sizing: border-box;
+}
 
 
 .text{
     display: flex;
     flex-direction: row;
+    width: 70%;
 }
 
 button{
@@ -103,10 +146,6 @@ button{
 
 }
 
-.icon{
-    font-size: 3rem;
-    cursor: pointer;
-} 
 
 .text-card{
 
@@ -132,27 +171,21 @@ button{
 
 }
 
-.dismiss{
-    background-color: red;
-    border-radius: 50%;
-    height: 1.2rem;
-}
-
-.dismiss:hover{
-    color: silver;
-    background-color: black;
-}
 
 .badge{
     position: absolute;
+    font-size: 2rem;
     top: 5px;
     right: 5px;
     width: 4rem;
-    padding-top: 1rem;
-    background-color: rgba(60, 203, 93, 0.694);
+    padding-top: 6px;
     border-radius: 50%;
     height: 3rem;
     text-align: center;
+}
+
+.heart:hover {
+color: red;
 }
 
 .btn{

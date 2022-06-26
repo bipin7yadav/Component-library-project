@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +10,22 @@
     <link rel="stylesheet" href="input.css">
     <title>Document</title>
 </head>
+
 <body>
 
     <header>
-        <h1>CSS.SUP</h1>
-        <div class="con">
-            <button ><a href="https://github.com/bipin7yadav" class="fa fa-github icon"></a></button>
-            <button ><a href="https://twitter.com/bipinyadav9769" class="fa fa-twitter icon"></a></button>
-            <button ><a href="https://www.linkedin.com/in/bipin-yadav-07a08217a/" class="fa fa-linkedin icon"></a></button>
 
+        <div class="flex">
+            <div>
+                <h1>CSS.SUP</h1>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/bipin7yadav" class='fa fa-github'></a>
+                <a href="https://twitter.com/bipinyadav9769" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/bipin-yadav-07a08217a/" class="fa fa-linkedin"></a>
+            </div>
         </div>
-        
+
     </header>
     <div class="container">
 
@@ -40,14 +46,15 @@
             <h3><a href="modal.html" class="side-nav">Modal</a></h3>
             <h3><a href="toast.html" class="side-nav">Toast</a></h3>
             <h3><a href="grid.html" class="side-nav">Grid</a></h3>
-            
+
 
         </div>
 
 
         <div class="body">
             <h1>Input</h1>
-            <p>A field for entering a URL. Looks like a text input, but has validation parameters and relevant keyboard in supporting browsers and devices</p>
+            <p>A field for entering a URL. Looks like a text input, but has validation parameters and relevant keyboard
+                in supporting browsers and devices</p>
 
             <h2>Textarea</h2>
             <textarea placeholder="Enter Anything You Lke" id="textarea"></textarea>
@@ -59,7 +66,7 @@
             <label>
                 Enter a number between 10 and 50:
             </label>
-            <input class="txt-input" type="number" min="1" max="50" placeholder="Number"/>
+            <input class="txt-input" type="number" min="1" max="50" placeholder="Number" />
             <hr>
 
             <h2>Radio Input</h2>
@@ -67,40 +74,60 @@
             <div>
 
 
-            <input type="radio" name="radio-input" id="">
-            <label for="radio-input">Laptop</label>
+                <input type="radio" name="radio-input" id="">
+                <label for="radio-input">Laptop</label>
 
             </div>
 
 
             <div>
-            <input type="radio" name="radio-input" id="">
-            <label for="radio-input">Mobile</label>
+                <input type="radio" name="radio-input" id="">
+                <label for="radio-input">Mobile</label>
 
             </div>
 
             <div>
 
-            <input type="radio" name="radio-input" id="">
-            <label for="radio-input">Tablet</label>
+                <input type="radio" name="radio-input" id="">
+                <label for="radio-input">Tablet</label>
             </div>
+
+            <hr>
+
+            <div>
+                <h2>
+                    Error Input Fields
+                </h2>
+
+                <div class="invalid">
+                    <label>Email*</label>
+                    <input type="email"/>
+                </div>
+
+                <div class="invalid">
+                    <label>Password*</label>
+                    <input type="password"/>
+                </div>
+
+            </div>
+
 
             <div><iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch1%253EInput%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520field%2520for%2520entering%2520a%2520URL.%2520Looks%2520like%2520a%2520text%2520input%252C%2520but%2520has%2520validation%2520parameters%2520and%2520relevant%2520keyboard%2520in%2520supporting%2520browsers%2520and%2520devices%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETextarea%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520placeholder%253D%2522Enter%2520Anything%2520You%2520Lke%2522%2520id%253D%2522textarea%2522%253E%253C%252Ftextarea%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENumber%2520Input%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Enter%2520a%2520number%2520between%252010%2520and%252050%253A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522txt-input%2522%2520type%253D%2522number%2522%2520min%253D%25221%2522%2520max%253D%252250%2522%2520placeholder%253D%2522Number%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERadio%2520Input%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-input%2522%253ELaptop%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-input%2522%253EMobile%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-input%2522%253ETablet%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                class="carbon"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe></div>
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=3024-night&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch1%253EInput%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EA%2520field%2520for%2520entering%2520a%2520URL.%2520Looks%2520like%2520a%2520text%2520input%252C%2520but%2520has%2520validation%2520parameters%2520and%2520relevant%2520keyboard%2520in%2520supporting%2520browsers%2520and%2520devices%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ETextarea%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520placeholder%253D%2522Enter%2520Anything%2520You%2520Lke%2522%2520id%253D%2522textarea%2522%253E%253C%252Ftextarea%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ENumber%2520Input%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Enter%2520a%2520number%2520between%252010%2520and%252050%253A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522txt-input%2522%2520type%253D%2522number%2522%2520min%253D%25221%2522%2520max%253D%252250%2522%2520placeholder%253D%2522Number%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253ERadio%2520Input%253C%252Fh2%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-input%2522%253ELaptop%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-input%2522%253EMobile%253C%252Flabel%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522radio-input%2522%2520id%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-input%2522%253ETablet%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    class="carbon" sandbox="allow-scripts allow-same-origin">
+                </iframe></div>
 
 
             <div class="btn">
                 <button><a href="image.html">previous</a></button>
                 <button><a href="list.html">Next</a></button>
-               
+
             </div>
-           
+
         </div>
 
     </div>
 
 </body>
+
 </html>

@@ -14,13 +14,16 @@
 <body>
 
     <header>
-        <h1>CSS.SUP</h1>
-        <div class="icon">
-            <button><a href="https://github.com/bipin7yadav" class="fa fa-github icon"></a></button>
-            <button><a href="https://twitter.com/bipinyadav9769" class="fa fa-twitter icon"></a></button>
-            <button><a href="https://www.linkedin.com/in/bipin-yadav-07a08217a/"
-                    class="fa fa-linkedin icon"></a></button>
 
+        <div class="flex">
+            <div>
+                <h1>CSS.SUP</h1>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/bipin7yadav" class='fa fa-github'></a>
+                <a href="https://twitter.com/bipinyadav9769" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/bipin-yadav-07a08217a/" class="fa fa-linkedin"></a>
+            </div>
         </div>
 
     </header>
@@ -59,22 +62,32 @@
             </div>
 
             <div class="realModal">
-                <div class="cancel">
-                    <h1>Modal</h1>
-                    <button class="cancel-btn"><i class="fa fa-close"></i></button>
-                </div>
+                <div class="content">
+                    <div class="cancel">
+                        <h2>Modal</h2>
+                        <h2 class="cancel-btn"><i class="fa fa-close"></i></h2>
+                    </div>
 
-                <h2>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et rerum sapiente quaerat sequi sed odio
-                    voluptates nemo quia aperiam. Sequi, deserunt natus dolorum magnam provident tempora amet placeat
-                    quam similique.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias explicabo voluptatum, blanditiis
-                    odit, molestiae optio iste, magni numquam enim velit aliquam qui praesentium reprehenderit harum
-                    repellat obcaecati. Iure beatae distinctio impedit repudiandae iste, nesciunt possimus excepturi
-                    architecto nihil inventore veritatis dicta! Beatae, qui repudiandae natus minus facilis cupiditate
-                    fuga doloribus.
-                    </h2v>
-                    <button>Save</button>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et rerum sapiente quaerat sequi
+                            sed
+                            odio
+                            voluptates nemo quia aperiam. Sequi, deserunt natus dolorum magnam provident tempora amet
+                            placeat
+                            quam similique.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias explicabo voluptatum,
+                            blanditiis
+                            odit, molestiae optio iste, magni numquam enim velit aliquam qui praesentium reprehenderit
+                            harum
+                            repellat obcaecati. Iure beatae distinctio impedit repudiandae iste, nesciunt possimus
+                            excepturi
+                            architecto nihil inventore veritatis dicta! Beatae, qui repudiandae natus minus facilis
+                            cupiditate
+                            fuga doloribus.
+                        </p>
+                    </div>
+                </div>
             </div>
             <div class="btn">
                 <button><a href="text-utility.html">previous</a></button>
@@ -90,13 +103,13 @@
     const modelBtn = document.querySelector(".model-btn");
     const realModal = document.querySelector(".realModal")
     const cancelBtn = document.querySelector(".cancel-btn");
- 
-    modelBtn.addEventListener("click",() => {
-        realModal.style.display="inherit";
+
+    modelBtn.addEventListener("click", () => {
+        realModal.style.display = "inherit";
     })
 
-    cancelBtn.addEventListener("click",() => {
-        realModal.style.display="none";
+    cancelBtn.addEventListener("click", () => {
+        realModal.style.display = "none";
     })
 
 </script>
