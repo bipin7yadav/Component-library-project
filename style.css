@@ -1,5 +1,4 @@
 .content{
-    /* background-color: rgb(110, 208, 211); */
     width: 100%;
     height: 100%;
 }
@@ -10,11 +9,16 @@
     height: 80%;
 }
 
+
 .icons{
     width: 20px;
     border-radius: 4px;
     background-color: snow;
 
+}
+.link{
+    border-color: var(--tertiary-color) ;
+    border-style: none;
 }
 
 nav{

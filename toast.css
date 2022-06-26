@@ -4,10 +4,11 @@ body{
     position: relative;
     margin-left: 4px;
     width: 100%;
+    margin-top: 0;
 }
 
 .body{
-    width: 100%;
+    width: 85%;
 }
 .container{
     padding: 3px;
@@ -19,28 +20,40 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 5px;
     background-color: rgb(155, 173, 238);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    padding:1px;
+    position: sticky;
+    z-index: 2;
+    margin-top: 0;
     top: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}
+
+.icon{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+} 
+.fa{
+    text-decoration: none;
 }
 
 .side-nav{
     text-decoration: none;
 }
 
-.side-nav:hover{
-    background-color: turquoise;
-    padding: 5px 3rem 5px 3rem;
-    border-radius: 1rem;
-}
-
 
 .sidebar{
-    width: 16rem;
-    height: fi;
+    width: 15%;
     border-right-style: solid;
     position: static;
     text-align: center;
@@ -76,39 +89,59 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
+    height: 20rem;
+}
+
+.toasts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18rem;
+}
+.tst{
+    border-color:aqua ;
 }
 
 .p-toast{
+    padding: 3px;
     background-color: aqua;
     display: flex;
     justify-content: space-between;
-    width:20rem;
-    height:3rem;
+    width:25rem;
+    height:2.5rem;
+    border-radius: 3px;
 }
 
 .s-toast{
     background-color:blue;
     display: flex;
     justify-content: space-between;
-    width:20rem;
-    height:3rem;
+    width:25rem;
+    height:2.5rem;
+    padding: 3px;
+    border-radius: 3px;
 }
 
 .d-toast{
     background-color: red;
     display: flex;
     justify-content: space-between;
-    width:20rem;
-    height:3rem;
+    width:25rem;
+    height:2.5rem;
+    border-radius: 3px;
+    padding: 3px;
 }
 
 .w-toast{
     display: flex;
     justify-content: space-between;
     background-color:orange ;
-    width:20rem;
-    height:3rem;
+    width:25rem;
+    height:2.5rem;
+    border-radius: 3px;
+    padding: 3px;
 }
 
 .demo{

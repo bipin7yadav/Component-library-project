@@ -4,10 +4,16 @@ body{
     position: relative;
     margin-left: 4px;
     width: 100%;
+    margin-top: 0;
 }
 
 .body{
-    width: 100%;
+    width: 85%;
+}
+.sidebar{
+    width: 15%;
+    border-right-style: solid;
+    text-align: center;
 }
 .container{
     padding: 3px;
@@ -19,12 +25,31 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    margin: 5px;
     background-color: rgb(155, 173, 238);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    padding:1px;
+    position: sticky;
+    z-index: 2;
+    margin-top: 0;
     top: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}
+
+.icon{
+    font-size: 3rem;
+    cursor: pointer;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+} 
+.fa{
+    text-decoration: none;
 }
 
 .side-nav{
@@ -38,12 +63,6 @@ header{
 }
 
 
-.sidebar{
-    width: 16rem;
-    border-right-style: solid;
-    position: static;
-    text-align: center;
-}
 
 .btn{
     margin-top: 3rem;
@@ -57,17 +76,13 @@ button{
     background-color: skyblue;
 }
 
-.icon{
-    font-size: 3rem;
-    cursor: pointer;
-}
 
 .alert{
     display: inline-block;
     margin: 1rem;
-    width: 100%;
+    width: 60%;
     padding: .7rem;
-    text-align: center;
+    border-radius: 3px;
 }
 
 
